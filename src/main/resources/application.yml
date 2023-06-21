@@ -5,3 +5,7 @@ server:
 eureka:
   client:
     register-with-eureka: false
+    
+
+  server:
+    enableSelfPreservation: true
